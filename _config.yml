@@ -23,8 +23,8 @@ description: > # this means to ignore newlines until "baseurl:"
    <img src="http://splmc.github.io/scalabilityAnalysis/assets/unamur.jpg"><br/>
    <img src="http://splmc.github.io/scalabilityAnalysis/assets/passau.jpg"><br/>
 
-baseurl: "/scalabilityAnalysis" # #the subpath of your site, e.g. /blog
-url: "https://splmc.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # #the subpath of your site, e.g. /blog
+url: "https://igorbispo99.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: andreperon
 github_username:  splmc
 
