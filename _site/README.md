@@ -1,4 +1,4 @@
-# Suplementary material for IST submission:
+# Suplementary material for *<<journal's name>>* submission:
 
 ## Description
 
@@ -22,7 +22,7 @@ and space.
 ReAna is the tool implementing the feature-family-based strategy for the
 reliability analysis of software product lines. It can be downloaded from
 [here][reana-tool], and its source code is available at
-[https://github.com/SPLMC/reana-spl/][reana-repo].
+[https://github.com/SPLMC/reana/][reana-repo].
 
 ## ReAna variants
 
@@ -43,15 +43,16 @@ deployment and games and their configuration spaces range from from dozen to
 billions of products. The feature and behavioral models of each subject system
 are available at the second and third column of the following table.
 
-| Product lines |    Feature and <br> behavioral models        | Results               |
-|---------------|:--------------------------------------------:|:---------------------:|
-| Email         | [click][fmemail]                             | [click][rsemail]      |
-| MinePump      | [click][fmminepump]                          | [click][rsminepump]   |
-| BSN           | [click][fmbsn]                               | [click][rsbsn]        |
-| Lift          | [click][fmlift]                              | [click][rslift]       |
-| InterCloud    | [click][fmintercloud]                        | [click][rsintercloud] |
-| TankWar       | [click][fmtankwar]                           | [click][rstankwar]    |
+| Product lines |    Feature Model     |  Behavioral Models\*  | Results               |
+|---------------|:--------------------:|:---------------------:|:---------------------:|
+| Email         | [click][fmemail]     | [click][bmemail]      | [click][rsemail]      |
+| MinePump      | [click][fmminepump]  | [click][bmminepump]   | [click][rsminepump]   |
+| BSN           | [click][fmbsn]       | [click][bmbsn]        | [click][rsbsn]        |
+| Lift          | [click][fmlift]      | [click][bmlift]       | [click][rslift]       |
+| InterCloud    | [click][fmintercloud]| [click][bmintercloud] | [click][rsintercloud] |
+| TankWar       | [click][fmtankwar]   | [click][bmtankwar]    | [click][rstankwar]    |
 
+\* All behavioral models were created using the [MagicDraw][magicdraw] tool.
 
 To notice how each evaluation strategy behaves as the software product line
 under analysis increases, the experimental study augmented the subject system's
@@ -90,15 +91,10 @@ experiment.
 
 ## [Contacts](site/contacts)
 
----
 
-_Last update: March 21th., 2017_
-
-
-
-[reana-tool]:     https://github.com/SPLMC/scalabilityAnalysis/raw/master/assets/reana-spl.jar
-[reana-repo]:     https://github.com/SPLMC/reana-spl/
-[reana-spl-tool]: https://github.com/SPLMC/scalabilityAnalysis/raw/master/assets/reana-spl.jar
+[reana-tool]:     https://github.com/reana/fse16/raw/master/reana/reana.jar
+[reana-repo]:     https://github.com/SPLMC/reana/
+[reana-spl-tool]: https://github.com/reana/fse16/raw/master/reana-spl/reana-spl.jar
 [reana-spl-repo]: https://github.com/SPLMC/reana-spl/
 [magicdraw]:      http://www.nomagic.com/products/magicdraw.html
 [fmemail]:        spls/email/
