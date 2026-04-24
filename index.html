@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="author" content="Igor Bispo de Moraes Coelho Correia" />
+<meta name="description" content="Igor Bispo — AI Specialist, Computer Vision & Deep Learning Engineer." />
+<meta property="og:title" content="Igor Bispo — AI Specialist" />
+<meta property="og:description" content="Computer Vision & Deep Learning Engineer. MSc Universidade de Brasília." />
+<meta property="og:image" content="assets/img/igor.jpg" />
+<meta property="og:type" content="website" />
+<title>Igor Bispo — AI Specialist · Computer Vision &amp; Deep Learning</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230a84ff'/%3E%3Ctext x='16' y='22' font-size='18' font-family='Inter,system-ui,sans-serif' font-weight='700' text-anchor='middle' fill='white'%3EI%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-lang="pt">
+
+<header class="site-header">
+  <div class="container nav">
+    <a href="#top" class="brand">
+      <span class="brand-mark">IB</span>
+      <span class="brand-name">Igor Bispo</span>
+    </a>
+    <nav class="nav-links" aria-label="primary">
+      <a href="#about"        data-i18n="nav.about">Sobre</a>
+      <a href="#stack"        data-i18n="nav.stack">Stack</a>
+      <a href="#experience"   data-i18n="nav.experience">Experiência</a>
+      <a href="#teaching"     data-i18n="nav.teaching">Aulas</a>
+      <a href="#publications" data-i18n="nav.publications">Publicações</a>
+      <a href="#contact"      data-i18n="nav.contact">Contato</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="lang-toggle" id="langToggle" aria-label="Toggle language">
+        <span class="lang-opt" data-lang="pt">PT</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-opt" data-lang="en">EN</span>
+      </button>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg viewBox="0 0 24 24" width="18" height="18" class="icon-sun"  fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        <svg viewBox="0 0 24 24" width="18" height="18" class="icon-moon" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow" data-i18n="hero.eyebrow">Especialista em IA · Visão Computacional</span>
+        <h1 class="hero-title">
+          Igor Bispo de Moraes <span class="accent">Coelho Correia</span>
+        </h1>
+        <p class="hero-sub" data-i18n="hero.sub">
+          Engenheiro de deep learning e visão computacional com mais de 5 anos aplicando IA em domínios críticos — rodovias, sensoriamento remoto (SAR), imagens médicas e segurança automotiva.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" id="cvLink" href="assets/docs/Igor_Bispo_Curriculo_PT.pdf" download>
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span data-i18n="hero.downloadCv">Baixar currículo (PDF)</span>
+          </a>
+          <a class="btn btn-ghost" href="#contact"><span data-i18n="hero.contact">Entrar em contato</span></a>
+        </div>
+        <ul class="hero-meta">
+          <li><span class="meta-k" data-i18n="hero.location">Localização</span><span class="meta-v">Brasília, DF · Brasil</span></li>
+          <li><span class="meta-k" data-i18n="hero.edu">Formação</span><span class="meta-v" data-i18n="hero.eduValue">MSc Eng. Elétrica — UnB</span></li>
+          <li><span class="meta-k" data-i18n="hero.langs">Idiomas</span><span class="meta-v" data-i18n="hero.langsValue">PT (nativo) · EN (avançado) · ES (intermediário)</span></li>
+        </ul>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-wrap">
+          <img src="assets/img/igor.jpg" alt="Igor Bispo" />
+          <div class="photo-ring"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div>
+        <span class="kicker" data-i18n="about.kicker">// sobre</span>
+        <h2 class="section-title" data-i18n="about.title">Sobre mim</h2>
+      </div>
+      <div class="about-copy">
+        <p data-i18n="about.p1">Cientista da computação formado pela Universidade de Brasília (UnB) com mestrado em Engenharia Elétrica na área de Processamento de Sinais. Desde o início da graduação, venho atuando com inteligência artificial e visão computacional, tanto em projetos acadêmicos quanto profissionais.</p>
+        <p data-i18n="about.p2">Atualmente, Especialista de IA Sênior na FPFtech, desenvolvendo sistemas de visão computacional para segurança automotiva — detecção e classificação de objetos, estimativa de profundidade e aprimoramento visual em hardware embarcado. Também leciono Aprendizado de Máquina e Deep Learning em pós-graduação no IPOS.</p>
+        <p data-i18n="about.p3">Atuei no ciclo completo de modelos de IA na Pesquisa CNT de Rodovias — a maior pesquisa rodoviária do Brasil — detectando mais de 40 variáveis de infraestrutura viária. No mestrado, participei dos projetos Curupira (desmatamento e incêndios na Amazônia com imagens SAR) e Gigasistêmica (diagnóstico de osteoporose e ateromas em imagens médicas).</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack" class="section section-alt">
+    <div class="container">
+      <span class="kicker" data-i18n="stack.kicker">// stack</span>
+      <h2 class="section-title" data-i18n="stack.title">Stack Técnica</h2>
+      <div class="stack-grid">
+        <div class="stack-card">
+          <div class="stack-head">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v6M12 17v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6M17 12h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24"/></svg>
+            <h3 data-i18n="stack.dlTitle">Deep Learning &amp; CV</h3>
+          </div>
+          <ul class="chips">
+            <li>PyTorch</li><li>TensorFlow</li><li>OpenCV</li><li>YOLO</li><li>Faster R-CNN</li><li>U-Net</li><li>Transformers</li><li>HuggingFace</li>
+          </ul>
+        </div>
+        <div class="stack-card">
+          <div class="stack-head">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            <h3 data-i18n="stack.langTitle">Linguagens</h3>
+          </div>
+          <ul class="chips"><li>Python</li><li>C++</li><li>C#</li><li>Bash</li><li>SQL</li></ul>
+        </div>
+        <div class="stack-card">
+          <div class="stack-head">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            <h3 data-i18n="stack.imgTitle">Processamento de Imagem</h3>
+          </div>
+          <ul class="chips"><li data-i18n="stack.sar">Imagens SAR</li><li data-i18n="stack.med">Imagens médicas</li><li data-i18n="stack.depth">Depth estimation</li><li data-i18n="stack.embedded">Vídeo embarcado</li><li data-i18n="stack.enhance">Aprimoramento visual</li></ul>
+        </div>
+        <div class="stack-card">
+          <div class="stack-head">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            <h3 data-i18n="stack.mlopsTitle">MLOps &amp; Infra</h3>
+          </div>
+          <ul class="chips"><li>Docker</li><li>Kubernetes</li><li>Apache Airflow</li><li>Nagios</li><li>Linux</li><li>AWS</li><li>GCP</li></ul>
+        </div>
+        <div class="stack-card">
+          <div class="stack-head">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+            <h3 data-i18n="stack.dataTitle">Dados</h3>
+          </div>
+          <ul class="chips"><li>PostgreSQL</li><li>SQL Server</li><li>Elasticsearch</li></ul>
+        </div>
+        <div class="stack-card">
+          <div class="stack-head">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            <h3 data-i18n="stack.toolsTitle">Ferramentas</h3>
+          </div>
+          <ul class="chips"><li data-i18n="stack.cvat">CVAT (anotação)</li><li>Django</li><li>Git</li></ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <span class="kicker" data-i18n="exp.kicker">// trajetória</span>
+      <h2 class="section-title" data-i18n="exp.title">Experiência Profissional</h2>
+      <ol class="timeline">
+
+        <li class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <header class="tl-head">
+              <h3 data-i18n="exp.fpf.role">Especialista de IA Sênior</h3>
+              <span class="tl-date">2025 — <span data-i18n="exp.present">presente</span></span>
+            </header>
+            <p class="tl-org">FPFtech · <span data-i18n="exp.fpf.loc">Manaus, AM (híbrido)</span></p>
+            <p data-i18n="exp.fpf.desc">Desenvolvimento de sistemas de visão computacional para segurança automotiva: detecção e classificação de objetos em conformidade com regulamentações internacionais, estimativa de profundidade e aprimoramento visual. Atuação em todo o pipeline — pré-processamento, avaliação de qualidade de imagem, inferência com deep learning e monitoramento de performance em hardware embarcado.</p>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <header class="tl-head">
+              <h3 data-i18n="exp.ipos.role">Professor de Pós-Graduação</h3>
+              <span class="tl-date">2025 — <span data-i18n="exp.present">presente</span></span>
+            </header>
+            <p class="tl-org">IPOS · <span data-i18n="exp.remote">Remoto</span></p>
+            <p data-i18n="exp.ipos.desc">Docência de Aprendizado de Máquina com Python e Deep Learning com Python na especialização em Inteligência Artificial para Construção Civil. Planejamento do conteúdo programático, condução de aulas e elaboração de atividades avaliativas.</p>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <header class="tl-head">
+              <h3 data-i18n="exp.cnt.role">Analista de IA</h3>
+              <span class="tl-date">2022 — 2025</span>
+            </header>
+            <p class="tl-org">Confederação Nacional do Transporte (CNT) · <span data-i18n="exp.cnt.loc">Brasília, DF</span></p>
+            <p data-i18n="exp.cnt.desc">Responsável pelo ciclo completo de modelos de IA para a Pesquisa CNT de Rodovias — a maior pesquisa rodoviária do Brasil. Desenvolveu e manteve sistemas de detecção, classificação e análise de mais de 40 variáveis viárias (defeitos de pavimento, sinalização, viadutos, guardrails).</p>
+            <ul class="chips"><li>Python</li><li>C++</li><li>C#</li><li>TensorFlow</li><li>PyTorch</li><li>OpenCV</li><li>PostgreSQL</li><li>Airflow</li></ul>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <header class="tl-head">
+              <h3 data-i18n="exp.unb.role">Pesquisador de Pós-Graduação</h3>
+              <span class="tl-date">2021 — 2025</span>
+            </header>
+            <p class="tl-org">Universidade de Brasília (UnB) · Brasília, DF</p>
+            <p data-i18n="exp.unb.desc">Projeto Curupira — sistema de detecção de desmatamento e incêndios na Amazônia a partir de imagens SAR (Sentinel-1) com PyTorch e redes convolucionais profundas. Projeto Gigasistêmica — modelos para diagnóstico de osteoporose e ateromas em TC e panorâmica dental (U-Net, segmentação semântica). Supervisão de pipeline de anotação no CVAT.</p>
+            <ul class="chips"><li>PyTorch</li><li>SAR/Sentinel-1</li><li>U-Net</li><li data-i18n="exp.unb.medCT">TC médica</li><li>CVAT</li></ul>
+          </div>
+        </li>
+
+        <li class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <header class="tl-head">
+              <h3 data-i18n="exp.zerum.role">Cientista de Dados</h3>
+              <span class="tl-date">2021 — 2022</span>
+            </header>
+            <p class="tl-org">Zerum IT Engineering · Brasília, DF</p>
+            <p data-i18n="exp.zerum.desc">Análise de linguagem natural e classificação de textos fiscais com foco em detecção de fraudes e anomalias. Modelos LSTM e Transformer para séries temporais. API de classificação em produção com Django.</p>
+            <ul class="chips"><li>Python</li><li>TensorFlow</li><li>HuggingFace</li><li>Elasticsearch</li><li>Django</li></ul>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <section id="teaching" class="section section-alt">
+    <div class="container">
+      <div class="teach-head">
+        <div>
+          <span class="kicker" data-i18n="teach.kicker">// docência</span>
+          <h2 class="section-title" data-i18n="teach.title">Aulas &amp; Docência</h2>
+          <p class="section-lead" data-i18n="teach.lead">Pós-graduação IPOS — Aprendizado de Máquina e Deep Learning com Python. Frames extraídos das aulas ministradas entre março e dezembro de 2025.</p>
+        </div>
+        <div class="teach-stats">
+          <div class="stat"><b>16</b><span data-i18n="teach.statLessons">aulas</span></div>
+          <div class="stat"><b>4</b><span data-i18n="teach.statMods">módulos</span></div>
+          <div class="stat"><b>2025</b><span data-i18n="teach.statYear">turma</span></div>
+        </div>
+      </div>
+
+      <div class="modules">
+        <article class="module">
+          <header class="module-head">
+            <h3 data-i18n="teach.m1.title">Módulo 1 — Fundamentos de ML</h3>
+            <span class="module-date">21–23 / 03 / 2025</span>
+          </header>
+          <div class="gallery">
+            <a class="shot" href="assets/screenshots/aula_2025-03_01.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-03_01.jpg" alt="Aula 01" /></a>
+            <a class="shot" href="assets/screenshots/aula_2025-03_02.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-03_02.jpg" alt="Aula 02" /></a>
+            <a class="shot" href="assets/screenshots/aula_2025-03_03.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-03_03.jpg" alt="Aula 03" /></a>
+            <a class="shot" href="assets/screenshots/aula_2025-03_04.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-03_04.jpg" alt="Aula 04" /></a>
+          </div>
+        </article>
+
+        <article class="module">
+          <header class="module-head">
+            <h3 data-i18n="teach.m2.title">Módulo 2 — Algoritmos e Avaliação</h3>
+            <span class="module-date">23–25 / 05 / 2025</span>
+          </header>
+          <div class="gallery">
+            <a class="shot" href="assets/screenshots/aula_2025-05_01.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-05_01.jpg" alt="Aula 05" /></a>
+            <a class="shot" href="assets/screenshots/aula_2025-05_02.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-05_02.jpg" alt="Aula 06" /></a>
+            <a class="shot" href="assets/screenshots/aula_2025-05_03.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-05_03.jpg" alt="Aula 07" /></a>
+            <a class="shot" href="assets/screenshots/aula_2025-05_04.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-05_04.jpg" alt="Aula 08" /></a>
+          </div>
+        </article>
+
+        <article class="module">
+          <header class="module-head">
+            <h3 data-i18n="teach.m3.title">Módulo 3 — Deep Learning com Python</h3>
+            <span class="module-date">24–26 / 10 / 2025</span>
+          </header>
+          <div class="gallery">
+            <a class="shot" href="assets/screenshots/aula_2025-10_01.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-10_01.jpg" alt="Aula 09" /></a>
+            <a class="shot" href="assets/screenshots/aula_2025-10_02.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-10_02.jpg" alt="Aula 10" /></a>
+            <a class="shot" href="assets/screenshots/aula_2025-10_03.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-10_03.jpg" alt="Aula 11" /></a>
+            <a class="shot" href="assets/screenshots/aula_2025-10_04.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-10_04.jpg" alt="Aula 12" /></a>
+          </div>
+        </article>
+
+        <article class="module">
+          <header class="module-head">
+            <h3 data-i18n="teach.m4.title">Módulo 4 — Visão Computacional</h3>
+            <span class="module-date">12–14 / 12 / 2025</span>
+          </header>
+          <div class="gallery">
+            <a class="shot" href="assets/screenshots/aula_2025-12_01.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-12_01.jpg" alt="Aula 13" /></a>
+            <a class="shot" href="assets/screenshots/aula_2025-12_02.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-12_02.jpg" alt="Aula 14" /></a>
+            <a class="shot" href="assets/screenshots/aula_2025-12_03.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-12_03.jpg" alt="Aula 15" /></a>
+            <a class="shot" href="assets/screenshots/aula_2025-12_04.jpg" target="_blank" rel="noopener"><img loading="lazy" src="assets/screenshots/aula_2025-12_04.jpg" alt="Aula 16" /></a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications" class="section">
+    <div class="container">
+      <span class="kicker" data-i18n="pub.kicker">// pesquisa</span>
+      <h2 class="section-title" data-i18n="pub.title">Publicações &amp; Formação</h2>
+
+      <div class="pub-grid">
+        <article class="pub-card">
+          <span class="pub-tag">MSc · 2024</span>
+          <h3 data-i18n="pub.msc.title">Deforestation Detection in SAR Images using Deep Neural Networks</h3>
+          <p data-i18n="pub.msc.desc">Dissertação de Mestrado — Engenharia Elétrica, Universidade de Brasília. Detecção de desmatamento em cenas Sentinel-1 com arquiteturas convolucionais profundas.</p>
+          <a class="pub-link" href="https://repositorio.unb.br/handle/10482/50921" target="_blank" rel="noopener">repositorio.unb.br ↗</a>
+        </article>
+
+        <article class="pub-card">
+          <span class="pub-tag">SBrT · 2023</span>
+          <h3 data-i18n="pub.sbrt.title">Estudo Comparativo da Detecção de Desmatamento em Cenas Sentinel-1 da Floresta Amazônica</h3>
+          <p data-i18n="pub.sbrt.desc">Anais do XLI Simpósio Brasileiro de Telecomunicações e Processamento de Sinais. Co-autoria com Prof. M. Farias et al.</p>
+          <a class="pub-link" href="https://doi.org/10.14209/sbrt.2023.1570923825" target="_blank" rel="noopener">doi.org/10.14209/sbrt.2023.1570923825 ↗</a>
+        </article>
+
+        <article class="pub-card">
+          <span class="pub-tag" data-i18n="pub.edu.tag">Formação</span>
+          <h3>MSc · <span data-i18n="pub.edu.msc">Engenharia Elétrica — Processamento de Sinais</span></h3>
+          <p>Universidade de Brasília (UnB) · 2022 – 2024</p>
+        </article>
+
+        <article class="pub-card">
+          <span class="pub-tag" data-i18n="pub.edu.tag">Formação</span>
+          <h3>BSc · <span data-i18n="pub.edu.bsc">Ciência da Computação</span></h3>
+          <p>Universidade de Brasília (UnB) · 2017 – 2021</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section section-alt">
+    <div class="container contact">
+      <div>
+        <span class="kicker" data-i18n="contact.kicker">// contato</span>
+        <h2 class="section-title" data-i18n="contact.title">Vamos conversar</h2>
+        <p class="section-lead" data-i18n="contact.lead">Aberto a colaborações em pesquisa aplicada, projetos de visão computacional e oportunidades em IA.</p>
+      </div>
+      <ul class="contact-list">
+        <li>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:igor.rabbit99@gmail.com">igor.rabbit99@gmail.com</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          <a href="https://linkedin.com/in/igorbispo99" target="_blank" rel="noopener">linkedin.com/in/igorbispo99</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92V21a1 1 0 0 1-1.09 1 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 3.2 4.09 1 1 0 0 1 4.2 3h4.09a1 1 0 0 1 1 .75 12.84 12.84 0 0 0 .7 2.81 1 1 0 0 1-.22 1l-1.73 1.73a16 16 0 0 0 6 6l1.73-1.73a1 1 0 0 1 1-.22 12.84 12.84 0 0 0 2.81.7 1 1 0 0 1 .75 1z"/></svg>
+          <a href="tel:+556195737383">+55 (61) 9 9573-7383</a>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Brasília, DF · Brasil</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container foot">
+    <p>© <span id="year"></span> Igor Bispo de Moraes Coelho Correia.</p>
+    <p class="muted" data-i18n="footer.made">Feito com HTML, CSS e muito café ☕.</p>
+  </div>
+</footer>
+
+<div id="lightbox" class="lightbox" aria-hidden="true" role="dialog">
+  <button class="lb-close" aria-label="close">×</button>
+  <img id="lbImg" alt="" />
+</div>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
